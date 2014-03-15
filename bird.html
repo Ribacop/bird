@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PRESS JUMP - Игры, обзоры игры, игровые новости. Скоро откроемся!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <style>
+  body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background:url('assets/bg.jpg') #000;
+  }
+  #screen canvas{
+    margin: 0 auto;
+  }
+  #github{
+    position:absolute;
+    bottom: 5px;
+    right:5px;
+    display:none;
+  }
+  #loading{
+    position: absolute;
+    font-family: "Verdana";
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    top: 50%;
+  }
+  #gamebox {
+      width:100%;
+      background:url('assets/bg.jpg');
+  }
+  #content {
+      height:500px;
+      width:500px;
+      margin: 0 auto;
+  }
+  </style>
+</head>
+<body>
+<div id="gamebox">
+<div id="loading">Loading...</div>
+<div id="screen"></div>
+<div id="github"></div>
+<script src="index.min.js"></script>
+</div>
+<div style="display:none"><a href="https://plus.google.com/113808265677516391406" rel="publisher">Google+</a></div>
+</body>
+</html>
