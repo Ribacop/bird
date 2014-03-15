@@ -2,7 +2,7 @@
   "name": "flappy",
   "version": "0.0.1",
   "authors": [
-    "shan zhou <hyspace@gmail.com>"
+    "ribacop <ribacop48@gmail.com>"
   ],
   "description": "flappy bird in html5",
   "main": "index.html",
@@ -12,7 +12,7 @@
     "bird"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/hyspace/flappy",
+  "homepage": "https://github.com/ribacop/bird",
   "private": true,
   "ignore": [
     "**/.*",
